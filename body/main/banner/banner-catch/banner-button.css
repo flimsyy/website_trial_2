@@ -1,0 +1,17 @@
+.banner-button{
+    margin-top: 1em;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    background-color: rgb(189, 39, 39) ;
+    color: #f0f0f0;
+    transition: 0.5s;
+    font-size: 1em;
+
+}
+
+.banner-button:hover{
+    background-color:  brown;
+    cursor: pointer;
+    
+}

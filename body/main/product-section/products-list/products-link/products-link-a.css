@@ -1,0 +1,27 @@
+.products-link a{
+    text-decoration: none;
+    color: #131313;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.products-link a::before{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+}
+
+.products-link:nth-child(even) a::before{
+    background: url(../../../../../images/products/present_1.svg) no-repeat;
+}
+
+.products-link:nth-child(odd) a::before{
+    background: url(../../../../../images/products/present_2.svg) no-repeat;
+}
+

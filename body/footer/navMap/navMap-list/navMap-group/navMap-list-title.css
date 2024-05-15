@@ -1,0 +1,27 @@
+.navmap-list-title{
+    font-weight: 700;
+    font-size: 1.3em;
+    margin: .9em 0;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+
+.navmap-list-title + .navMap-link {
+    margin-top: 0;
+}
+
+
+.navmap-list-title-branches {
+    color: #047470;
+    
+}
+
+.navmap-list-title-contactus {
+    color: rgb(189, 39, 39);
+    
+}
+
+.navmap-list-title-others {
+    color: #25d285;
+    
+}
